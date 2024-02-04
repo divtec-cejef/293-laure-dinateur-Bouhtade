@@ -89,6 +89,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #2ec4b6;
+}
+
 /***************************************
             ENTÊTE DE PAGE
 ****************************************/
@@ -97,6 +101,9 @@ header {
     background-color: #011627;
     text-align: center;
     padding: 5px 30px;
+}
+.cache-mobile {
+    display: inline;
 }
 .personne {
     font-size: 1.75rem;
@@ -108,15 +115,25 @@ header {
 }
 .metier {
     margin-top: -5px;
+    font-weight: 400;
 }
 
 /***************************************
               MENU DE NAVIGATION
 ****************************************/
 
+nav {
+    padding: 10px 0;
+    margin: 20px 0 0 0;
+}
+
 nav ul {
-    margin: 0;
+    margin: 0 10px;
     padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
 }
 
 
@@ -138,5 +155,20 @@ nav ul {
            PAGE INFORMATIONS
 ****************************************/
 .page-infos h1 {
-    background: deepskyblue;
+
+}
+
+/***************************************
+           ORDINATEUR
+****************************************/
+
+@media only screen and (max-width: 768px) {
+    .cache-mobile {
+        display: none;
+    }
+    a {
+        font-weight: 800;
+        padding: 15px 10px;
+        border-spacing: 30px;
+    }
 }
