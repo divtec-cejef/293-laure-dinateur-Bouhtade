@@ -169,8 +169,17 @@ footer {
 /***************************************
               PAGE CONTACT
 ****************************************/
-.page-contact h1 {
-    background: yellow;
+.page-contact ul li:first-child {
+    list-style-image: url('../_sources/images/phone.png');
+}
+.page-contact ul li:nth-child(2) {
+    list-style-image: url('../_sources/images/mail.png')
+}
+.page-contact ul li:nth-child(3) {
+    list-style-image: url('../_sources/images/twitter.png')
+}
+.page-contact ul li:last-child {
+    list-style-image: url('../_sources/images/facebook.png')
 }
 
 /***************************************
