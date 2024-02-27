@@ -182,11 +182,10 @@ footer {
     margin: 0;
 }
 .page-accueil .container li {
-    display: inline-block;
-    flex-grow: 1;
+    flex-grow: 2;
+    flex-basis: 50%;
     vertical-align: top;
-    margin: 2.5%;
-    border: #e71d36 solid;
+    padding: 1rem 2.5%;
 }
 figure {
     margin: 0;

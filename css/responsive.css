@@ -1,0 +1,54 @@
+@media screen and (min-width: 480px) {
+    .page-accueil ul.container li {
+        flex-basis: 33%;
+        flex-grow: 3;
+    }
+    .photo {
+        float: left;
+    }
+    .page-contact .infos{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .infos-generales {
+        flex-basis: 50%
+    }
+    .infos-contact {
+        flex-basis: 40%;
+        margin-left: 10%;
+    }
+}
+@media screen and (min-width: 660px) {
+    header {
+        border-bottom: #2ec4b6 solid 5px;
+        display: flex;
+        gap: 10%;
+    }
+    .logo {
+        width: 42%;
+        margin-left: 5%;
+        text-align: left;
+    }
+    .personne {
+        font-size: 2.5rem;
+    }
+    .metier {
+        margin-bottom: 20px;
+    }
+    header nav {
+        max-width: 48%;
+        margin-right: 5%;
+        font-size: 1.125rem;
+    }
+}
+@media screen and (min-width: 910px) {
+    main,
+    footer {
+        max-width: 910px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .page-accueil {
+        display: inline-block;
+    }
+}
