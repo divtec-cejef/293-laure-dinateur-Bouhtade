@@ -60,6 +60,16 @@ img {
     width: auto;
 }
 
+figcaption {
+    padding: 10px;
+    font-size: 1rem;
+    overflow: hidden;
+}
+
+figure {
+    background-color: #e7e9eb;
+}
+
 h1,
 h2,
 h3,
@@ -162,24 +172,40 @@ footer {
 /***************************************
               PAGE ACCUEIL
 ****************************************/
-.page-accueil h1 {
-    background: red;
+.container {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.page-accueil .container li {
+    display: inline-block;
+    flex-grow: 1;
+    vertical-align: top;
+    margin: 2.5%;
+    border: #e71d36 solid;
+}
+figure {
+    margin: 0;
 }
 
 /***************************************
               PAGE CONTACT
 ****************************************/
 .page-contact ul li:first-child {
-    list-style-image: url('../_sources/images/phone.png');
+    list-style-image: url('../img/phone.png');
 }
 .page-contact ul li:nth-child(2) {
-    list-style-image: url('../_sources/images/mail.png')
+    list-style-image: url('../img/mail.png')
 }
 .page-contact ul li:nth-child(3) {
-    list-style-image: url('../_sources/images/twitter.png')
+    list-style-image: url('../img/twitter.png')
 }
 .page-contact ul li:last-child {
-    list-style-image: url('../_sources/images/facebook.png')
+    list-style-image: url('../img/facebook.png')
 }
 
 /***************************************
